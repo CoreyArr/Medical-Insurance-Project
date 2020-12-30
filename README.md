@@ -2,6 +2,9 @@
 
 # *Medical Insurance Exploratory Data Analysis EDA*
 
+### Co-Contributors
+<a href = "https://github.com/AlignedMind/DataScience-Portfolio" >Jeremy Cruzado</a>
+
 ## Project Goals 
 
 - Explore data set to discover trends, anomalies, and correlations to rates.
