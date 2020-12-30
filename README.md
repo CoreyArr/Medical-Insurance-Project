@@ -68,13 +68,13 @@
     <h3>Early EDA</h3>
     <p>This portion focused primarily on understanding the key statistics and evaluation of the dataframe. These findings were as follows:
     <h5>Max Values</h5>
-<img src="https://github.com/AlignedMind/Pokedex_EDA_Project/blob/master/Analysis_Images/attack_violin.png?raw=true" alt="Attack Violin Plot">
-    The max values represent the highest values in each feature.
-    <h5>Min Values</h5>
-<img src="https://github.com/AlignedMind/Pokedex_EDA_Project/blob/master/Analysis_Images/speed_violin.png?raw=true" alt="Speed Violin Plot">
-    The min values represent the lowest values in each feature.
-    <h5>Average Values</h5>
-<img src="https://github.com/AlignedMind/Pokedex_EDA_Project/blob/master/Analysis_Images/speed_violin.png?raw=true" alt="Speed Violin Plot">
+<p>The max values represent the highest values in each feature.</p>
+
+<h5>Min Values</h5>
+<p>The min values represent the lowest values in each feature.</p>
+
+<h5>Average Values</h5>
+
     The average values represent the averages of all the values in each feature.
 </details>
 <details>
