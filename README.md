@@ -47,7 +47,7 @@
 
  ## Executive Summary
 
-### Webscraping Beautiful Soup
+
 <details>
     <summary>Open</summary>
     <h3>Data Cleaning</h3>
@@ -68,14 +68,13 @@
     <h3>Early EDA</h3>
     <p>This portion focused primarily on understanding the key statistics and evaluation of the dataframe. These findings were as follows:
     <h5>Max Values</h5>
-<p>The max values represent the highest values in each feature.</p>
+<p>The max values show a high of 64 in age, 53.13 in BMI, 5 children, and $63770.43 in charges.</p>
 
 <h5>Min Values</h5>
-<p>The min values represent the lowest values in each feature.</p>
+<p>The min values show a low of 18 in age, 15.96 in BMI, 0 children, and $1121.87 in charges.</p>
 
 <h5>Average Values</h5>
-
-    The average values represent the averages of all the values in each feature.
+<p>The average values show an average of 39 in age, 30 in BMI, 1 child, with 13270.42 in charges.</p>
 </details>
 <details>
     <summary>Part 3</summary>
@@ -115,7 +114,6 @@
     <p>
         Smoker carry the highest correlates inflation to price at .78. The age variable is the second highest key factor that correlates to charges at .29, while bmi has a .19 correlation, rounding off the top 3 feaetures. Given these features, there is a clear pattern that indicates that the older and heavier you are increases the medical insurance charges. Smoking causes a substantial increase to an individuals charges. However, on average, females that do not smoke are charged more than males that do not smoke, while males that smoke are charged more than females that smoke.</p>
     <div>
-    <img src="https://github.com/AlignedMind/Pokedex_EDA_Project/blob/master/Analysis_Images/pokedex_count.png?raw=true" alt="Pokedex Count">
     </div>
 </details>
     <details>
