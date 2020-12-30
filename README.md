@@ -79,45 +79,48 @@
 </details>
 <details>
     <summary>Part 3</summary>
-    <h3>Further Eda</h3>
-    <h5>Physical Sweeper Plot of all 18 types</h5>
-<img src="https://github.com/AlignedMind/Pokedex_EDA_Project/blob/master/Analysis_Images/ps_barplot.png?raw=true" alt="Physical Sweeper Bar Plot">
-    The Dragon, Fighting, Fire and Electric are all types that were previously identified for having high attack, high speed, or a combination of both. I want to further explore this data to see if there is a trend. Particularly types having high affinities in the features I created that comprise of stat combinations.
-    <h5>Special Sweeper Plot of all 18 types</h5>
-<img src="https://github.com/AlignedMind/Pokedex_EDA_Project/blob/master/Analysis_Images/ss_barplot.png?raw=true" alt="Special Sweeper Bar Plot">
-    The combined median values for Sp. Attack and Speed are represented here. Dragon appears once again near the top of the stack and Bug towards the bottom.
-    <h5>Wall Bar Plot of all 18 types</h5>
-<img src="https://github.com/AlignedMind/Pokedex_EDA_Project/blob/master/Analysis_Images/wall_barplot.png?raw=true" alt="Wall Bar Plot">
-    A "Wall" represents a species Health, Defense and Sp. Defense values. Dragon makes another appearance. So far we have represented all of the possible stat values and Dragon has appeared. However lets explore the two remaining arch-types for a through anaylsis.
-    <h5>Physical Tank Bar Plot of all 18 types</h5>
-<img src="https://github.com/AlignedMind/Pokedex_EDA_Project/blob/master/Analysis_Images/pt_barplot.png?raw=true" alt="Physical Tank Bar Plot">
-    Dragon again rounds out the top 5.
-    <h5>Special Tank Bar Plot of all 18 types</h5>
-<img src="https://github.com/AlignedMind/Pokedex_EDA_Project/blob/master/Analysis_Images/st_barplot.png?raw=true" alt="Special Tank Bar Plot">
+    <h3>Data Visualizations</h3>
+    <h5>Histogram: BMI </h5>
+<img src="https://github.com/CoreyArr/Medical-Insurance-Project/blob/main/Images/HistBMI.png?raw=true" alt="Histogram: BMI">
+   ---
+    <h5>Histogram: Charges</h5>
+<img src="https://github.com/CoreyArr/Medical-Insurance-Project/blob/main/Images/HistCharges.png?raw=true" alt="Histogram: Charges">
+    ---
+    <h5>Histogram: Age</h5>
+<img src="https://github.com/CoreyArr/Medical-Insurance-Project/blob/main/Images/HistAge.png?raw=true" alt="Histogram: Age">
+   ---
+    <h5>Histogram: Children</h5>
+<img src="https://github.com/CoreyArr/Medical-Insurance-Project/blob/main/Images/HistChildren.png?raw=true" alt="Histogram: Children">
+    ---
+    <h5>Heatmap: Correlation</h5>
+<img src="https://github.com/CoreyArr/Medical-Insurance-Project/blob/main/Images/Heatmap.png?raw=true" alt="Heatmap: Correlation">
 </p>
-    In this last plot Dragon again rounds out the upper third of the bar plot. I collected the data based on the type placement and trends. To create a new dataframe with those findings.
-    <h5>Type Plotting against Favorable and Unfavorable feature.</h5>
-<img src="https://github.com/AlignedMind/Pokedex_EDA_Project/blob/master/Analysis_Images/point_plot.png?raw=true" alt="PairGrid">
+    ---
+    <h5>Category Side by Side Bar Plot</h5>
+<img src="https://github.com/CoreyArr/Medical-Insurance-Project/blob/main/Images/Bar.png?raw=true" alt="Category Side by Side Bar Plot">
+</p>
+    ---
+     <h5>Scatterplot: Regressors</h5>
+<img src="https://github.com/CoreyArr/Medical-Insurance-Project/blob/main/Images/Scatter.png?raw=true" alt="Scatterplot: Regressors">
+</p>
+    Clear trend lines indicate that the bottom line represents non-smokers with low bmi.
+    The middle group shows smokers and non-smoker with generally low bmi.
+    The top trend line represents smokers with high bmi.
 </details>
 
 <details>
     <summary>Part 4</summary>
     <h3>Summarizing Findings</h3>
-    <h4>Do pokemon types influence stat distributions ?</h4>
+    <h4>Who pays more in medical insurance and why?</h4>
     <p>
-    After evaluating the data and you can see that pokemon types do heavily influence stat distributions. The Development team at Game Freak heavily favorites <b>Dragon</b> type pokemon where as they do not favor <b>Bug</b> type pokemon. <b>Water</b> type they appear to be indifferent on as they have no favorable or unfavorable arch-types based on median values.
-    <h4>Are those pokemon types more favorable when it comes to stat distributions</h4>
-    <p>This question was an interesting one to answer as select types appear in the upper third of the stat distributions. Notably Dragon, Ice, Electric, Steel, Rock, and Fire. These types represent high stat distributions and more appearances in the favorable third, less while showing up less in the unfavorable third of the barplots. Dragon type being the only exception, being that they do not make any appearance other than in favorable. This leads me to the "balanced" types those are types that make equal appearances in both favorable and unfavorable those are, Ground, Flying, Fairy, Fighting, and Psychic. Then they're the unfavorable, those of which I believe can be explored further by the GameFreak. These types include, Poison, Normal, Grass, Bug, Ghost, and Dark. Then there is Water the only type that is neither favorable or unfavorable.</p>
-    <h4>"What suggestions could be proposed from the findings on this dataset"</h4>
-    <p>When exploring this data and understanding the bias, trends and distribution of data I began to look more towards the amount of pokemon released each generation.</p>
+        Smoker carry the highest correlates inflation to price at .78. The age variable is the second highest key factor that correlates to charges at .29, while bmi has a .19 correlation, rounding off the top 3 feaetures. Given these features, there is a clear pattern that indicates that the older and heavier you are increases the medical insurance charges. Smoking causes a substantial increase to an individuals charges. However, on average, females that do not smoke are charged more than males that do not smoke, while males that smoke are charged more than females that smoke.</p>
     <div>
     <img src="https://github.com/AlignedMind/Pokedex_EDA_Project/blob/master/Analysis_Images/pokedex_count.png?raw=true" alt="Pokedex Count">
     </div>
-    I saw that they was a trend of rise and fall with the introduction of new species. After generation five there was a major decline and a stagnation in the number of new pokemon released. Which leads me to showcase those pokemon that have unfavorable stat distributions, this analysis showcased that types influence stats and those stats impact how well a pokemon can perform in battle. Poison, Normal, Grass, Bug, Ghost, and Dark pokemon should be more heavily focused on perhaps combining types that are unfavorable and those that are favorable.
 </details>
     <details>
     <summary>Part 5</summary>
     <h3>Closing Thoughts</h3>
-    <p> This project I hope can produce value for GameFreak and Nintendo when developing their next game. I seek to revisit this project and performing machine learning on the features. To perhaps predict base stat distributions on unreleased pokemon by exploring type combinations using MLR or Neural Networks to predict what stats can be increased for each type to shift them into a more favorable position, while not over powering them like dragon types have been and currently are. 
+    <p> This project is the first part of a whole. The next portion will serve as a machine learniing project that utilizes ensemble learning to predict chaarges based on the present features of this data set. 
     </p>
 </details>
