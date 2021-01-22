@@ -2,6 +2,8 @@
 
 # *Medical Insurance Exploratory Data Analysis EDA*
 
+*Ensemble Machine Learning* addded in notebooks 01/21/2021, no productionized model currently, will add using flask or binder soon.
+
 ### Co-Contributors
 <a href = "https://github.com/AlignedMind/DataScience-Portfolio" >Jeremy Cruzado</a>
 
